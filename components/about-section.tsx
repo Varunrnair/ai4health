@@ -5,20 +5,12 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="order-2 lg:order-1">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 text-balance">
-              About Health Literacy AI
+              Improving Public Healthcare Systems with AI
             </h2>
             <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 text-pretty leading-relaxed">
-              We are at the forefront of artificial intelligence innovation in
-              healthcare, developing cutting-edge AI solutions that transform
-              how medical care is delivered, diagnosed, and managed across the
-              globe.
+              We have developed and deployed IRB-backed field experiments, reproductive health management software, and work with local nonprofit partners to contribute to public health. Our work resulted in partnerships with Cohere AI, the Indian Council of Medical Research, awards from MIT, BRICS, UNDP, and an invitation to apply for funding to the Gates Foundation. 
             </p>
-            <p className="text-base sm:text-lg text-gray-600 text-pretty leading-relaxed">
-              Our mission is to democratize healthcare through AI, making
-              advanced medical intelligence accessible to everyone while
-              maintaining the highest standards of accuracy, privacy, and
-              ethical AI development.
-            </p>
+          
           </div>
 
           <div className="order-1 lg:order-2">

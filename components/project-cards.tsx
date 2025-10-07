@@ -7,31 +7,25 @@ const projects = [
   {
     id: "sakhi",
     title: "Sakhi",
-    tagline:
-      "AI-powered health companion for personalized care and wellness guidance.",
     thumbnail: "/sakhi/sakhi_main.png?height=300&width=1000",
     description:
-      "Intelligent health assistant providing personalized recommendations and support.",
+      "GenAI health literacy platform to offer personalized health interventions to mothers in India and adolescent girls in Bangladesh, in IRB-backed field experiments with 500 families to improve health literacy.",
     link: "https://sakhi-health.com/",
   },
   {
     id: "medical-ai-evaluation",
-    title: "Medical LLM Evaluation",
-    tagline:
-      "Comprehensive evaluation platform for medical AI systems and algorithms.",
+    title: "Evaluating LLMs for Healthcare QA",
     thumbnail: "/medicaleval/medeval.png?height=300&width=400",
     description:
-      "Advanced tools for assessing and validating medical AI performance and reliability.",
+      "We are expanding state-of-the-art health benchmarks to Hindi and Marathi, collaborating with Cohere Labs to develop clinical expert-validated healthcare evaluation systems for reproductive health.",
     link: "https://health-eval.simppl.org/",
   },
   {
     id: "sanjeevani-app",
     title: "Sanjeevani App",
-    tagline:
-      "Digital healthcare platform connecting patients with medical professionals.",
     thumbnail: "/sanjeevani/sang.png?height=300&width=400",
     description:
-      "Seamless telemedicine solution for accessible and quality healthcare delivery.",
+      "We worked with a leading infertility specialist to improve the efficiency of their remote outpatient departments by creating a patient onboarding platform  in sensitive healthcare settings.",
     link: "https://sanjivni-app.vercel.app/",
   },
 ];
@@ -42,12 +36,11 @@ export default function ProjectCards() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 text-balance">
-            Our <GradientText variant="green"> AI Health </GradientText>{" "}
-            Projects
+            Research Platforms for<GradientText variant="green">  AI x Health </GradientText>{" "}
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto text-pretty text-justify">
             Explore our innovative AI-powered healthcare solutions that are
-            transforming medical care and improving health outcomes.
+            transforming medical care and improving health outcomes for users in India and Bangladesh.
           </p>
         </div>
 
@@ -56,7 +49,7 @@ export default function ProjectCards() {
             <Link
               key={project.id}
               href={`/projects/${project.id}`}
-              className="group block bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-gray-200 overflow-hidden"
+              className="group flex flex-col bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-gray-200 overflow-hidden h-full"
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
@@ -66,18 +59,16 @@ export default function ProjectCards() {
                 />
               </div>
 
-              <div className="p-4 sm:p-6">
+              <div className="p-4 sm:p-6 flex flex-col flex-grow">
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2 text-balance">
                   {project.title}
                 </h3>
-                <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4 text-pretty text-justify">
-                  {project.tagline}
-                </p>
-                <p className="text-xs sm:text-sm text-gray-500 mb-4 sm:mb-6 text-pretty text-justify">
+                
+                <p className="text-xs sm:text-sm text-gray-500 mb-4 sm:mb-6 text-pretty text-justify flex-grow">
                   {project.description}
                 </p>
 
-                <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white text-sm sm:text-base">
+                <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white text-sm sm:text-base mt-auto">
                   Learn More
                 </Button>
               </div>

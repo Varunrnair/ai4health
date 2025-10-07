@@ -13,9 +13,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto text-pretty leading-relaxed">
-          Pioneering artificial intelligence solutions in healthcare to improve
-          patient outcomes, enhance medical diagnostics, and create accessible
-          health technologies for everyone.
+          Online information often affects offline health outcomes.<br /> Our pioneering work in health literacy reaches hundreds of families in India and Bangladesh, supporting reproductive health literacy using GenAI, GenAI patient onboarding flows, and AI-based telehealth support systems.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
