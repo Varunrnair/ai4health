@@ -13,7 +13,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto text-pretty leading-relaxed">
-          Online information often affects offline health outcomes.<br /> Our pioneering work in health literacy reaches hundreds of families in India and Bangladesh, supporting reproductive health literacy using GenAI, GenAI patient onboarding flows, and AI-based telehealth support systems.
+            Digital health interventions can measurably influence maternal health outcomes in resource-limited settings. Our health literacy initiative has reached participants across Maharashtra, India, deploying expert-in-the-loop WhatsApp chatbots, multilingual GenAI question-answering systems, and community health worker support platforms for reproductive healthcare delivery.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">

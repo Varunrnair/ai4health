@@ -12,7 +12,7 @@ import ImageCarousel from "@/components/image-carousel";
 const project = {
   title: "Medical LLM Evaluation",
   tagline:
-    "Comprehensive evaluation platform for medical AI systems and algorithms",
+    "Rigorous evaluation framework for multilingual medical AI systems in maternal healthcare contexts",
   heroMedia: {
     type: "image" as const,
     src: "/medicaleval/ai_image.png?height=600&width=1200",
@@ -188,14 +188,14 @@ export default function MedicalAIEvaluationPage() {
             </h2>
             <div className="text-gray-700 mb-8 leading-relaxed space-y-4 text-lg">
               <p className="text-justify">
-                Our project, Medical LLM Evaluation, addresses a critical need
-                in healthcare: ensuring AI-powered language models provide
-                accurate, safe, and culturally relevant information. We've
-                developed a comprehensive framework to evaluate the performance
-                of Large Language Models (LLMs) in answering questions related
-                to maternal health in multiple languages, including English,
-                Hindi, and Marathi. Our work is essential for validating AI
-                tools before they are used by patients and healthcare providers.
+                    Medical LLM Evaluation establishes systematic protocols for validating 
+                    AI-powered language models in maternal healthcare applications. Our 
+                    framework evaluates Large Language Model performance across English, 
+                    Hindi, and Marathi using expert-validated question sets, weighted 
+                    scoring mechanisms, and multi-dimensional assessment criteria. This 
+                    infrastructure enables evidence-based validation of AI systems prior 
+                    to deployment with patients and community health workers in 
+                    resource-limited settings.            
               </p>
             </div>
 

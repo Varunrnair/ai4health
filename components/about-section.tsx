@@ -8,9 +8,8 @@ export default function AboutSection() {
               Improving Public Healthcare Systems with AI
             </h2>
             <p className="text-base sm:text-lg text-gray-600 mb-4 sm:mb-6 text-pretty leading-relaxed">
-              We have developed and deployed IRB-backed field experiments, reproductive health management software, and work with local nonprofit partners to contribute to public health. Our work resulted in partnerships with Cohere AI, the Indian Council of Medical Research, awards from MIT, BRICS, UNDP, and an invitation to apply for funding to the Gates Foundation. 
-            </p>
-          
+                We design and implement randomized controlled trials, deploy antenatal and postnatal care management systems, and collaborate with established community health organizations to advance evidence-based public health interventions. Our research has generated collaborations with Cohere AI and the Indian Council of Medical Research, recognition from MIT and BRICS initiatives, UNDP acknowledgment, and consideration for Gates Foundation support.
+            </p>        
           </div>
 
           <div className="order-1 lg:order-2">
