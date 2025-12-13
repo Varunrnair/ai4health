@@ -61,37 +61,30 @@ const teamMembers = [
 const solutionFeatures = [
   {
     title: "Comprehensive AI model testing and validation protocols.",
-    icon: "🔬",
   },
   {
     title:
       "A gold-standard dataset of questions and answers created and validated by local medical experts.",
-    icon: "📚",
   },
   {
     title:
       "A professionally weighted scoring system to determine the clinical accuracy, completeness, and contextual safety.",
-    icon: "⚖️",
   },
   {
     title:
       "Evaluation of responses on multiple dimensions: medical quality, semantic similarity, and language quality.",
-    icon: "📊",
   },
   {
     title:
       "Focus on low-resource languages like Hindi and Marathi to ensure linguistic accessibility and cultural relevance.",
-    icon: "🗣️",
   },
   {
     title:
       "Utilization of state-of-the-art NLP models like Cohere's Command-A and Aya Expanse for multilingual QA.",
-    icon: "🧠",
   },
   {
     title:
       "A holistic final score that aggregates medical, semantic, and linguistic quality for a complete performance metric.",
-    icon: "⭐",
   },
 ];
 
@@ -141,7 +134,7 @@ export default function MedicalAIEvaluationPage() {
               className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
-              Back to Projects
+              Back
             </Link>
           </div>
 

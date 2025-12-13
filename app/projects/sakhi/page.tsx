@@ -62,27 +62,22 @@ const solutionFeatures = [
   {
     title:
       "Multilingual WhatsApp chatbot provides personalized health info and reminders for expectant mothers.",
-    icon: "💬",
   },
   {
     title:
       "A real-time dashboard offers actionable insights for NGOs and healthcare providers.",
-    icon: "📊",
   },
   {
     title:
       "Frontline health workers get AI-assisted support to verify and push accurate answers.",
-    icon: "🤖",
   },
   {
     title:
       "Our human-curated knowledge base ensures hallucination-free and accurate responses.",
-    icon: "📚",
   },
   {
     title:
       "The platform bridges the digital and physical divide between women and healthcare.",
-    icon: "🌉",
   },
 ];
 
@@ -139,7 +134,7 @@ export default function SakhiPage() {
               className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
-              Back to Projects
+              Back
             </Link>
           </div>
 

@@ -68,32 +68,26 @@ const solutionFeatures = [
   {
     title:
       "An intelligent, couple-centric intake form designed for fertility cases.",
-    icon: "📝",
   },
   {
     title:
       "A unified dashboard for clinicians to review all patient data and reports at a glance.",
-    icon: "🖥️",
   },
   {
     title:
       "A secure and simple portal for patients to upload all past medical documents.",
-    icon: "📂",
   },
   {
     title:
       "A privacy-first, local/offline architecture to ensure complete data security.",
-    icon: "🔒",
   },
   {
     title:
       "Smart appointment scheduling to manage multiple clinic and OPD locations.",
-    icon: "🗓️",
   },
   {
     title:
       "Automated patient notifications and bilingual support (English & Hindi).",
-    icon: "🗣️",
   },
 ];
 
@@ -112,7 +106,7 @@ export default function SanjeevaniAppPage() {
               className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
-              Back to Projects
+              Back
             </Link>
           </div>
 

@@ -11,26 +11,21 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="/SimPPL-Logo.png"
               alt="AI 4 Health"
-              width={32}
+              width={100}
               height={32}
-              className="w-8 h-8"
+              className="h-8 w-auto"
             />
-            <span className="text-xl font-bold text-gray-900">
-              Health Literacy AI
+            <span className="text-xl font-poppins text-gray-900">
+              AI4health
             </span>
           </Link>
 
           <div className="hidden md:flex space-x-8">
-            <Link
-              href="https://simppl.org/"
-              className="text-gray-700 hover:text-gray-900 transition-colors"
-            >
-              Home
-            </Link>
+            
             <Link
               href="/#about"
               className="text-gray-700 hover:text-gray-900 transition-colors"
@@ -43,12 +38,14 @@ export default function Navbar() {
             >
               Projects
             </Link>
-            <Link
-              href="/#contact"
+            <a
+              href="https://simppl.org/contact"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
               Contact
-            </Link>
+            </a>
           </div>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2">
@@ -96,13 +93,15 @@ export default function Navbar() {
               >
                 Projects
               </Link>
-              <Link
-                href="/#contact"
+              <a
+                href="https://simppl.org/contact"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block px-3 py-2 text-gray-700 hover:text-gray-900"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
-              </Link>
+              </a>
             </div>
           </div>
         )}
