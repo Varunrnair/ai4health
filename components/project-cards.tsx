@@ -9,7 +9,7 @@ const projects = [
     title: "Sakhi",
     thumbnail: "/sakhi/sakhi_main.png?height=300&width=1000",
     description:
-      "GenAI health literacy platform to offer personalized health interventions to mothers in India and adolescent girls in Bangladesh, in IRB-backed field experiments with 500 families to improve health literacy.",
+      "Multilingual GenAI intervention using expert-in-the-loop chatbot to improve maternal health literacy in rural India. Trails with 100 participants demonstrated significant increases in awareness of antenatal care practices.",
     link: "https://sakhi-health.com/",
   },
   {
@@ -39,8 +39,8 @@ export default function ProjectCards() {
             Research Platforms for<GradientText variant="green">  AI x Health </GradientText>{" "}
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto text-pretty text-justify">
-            Explore our innovative AI-powered healthcare solutions that are
-            transforming medical care and improving health outcomes for users in India and Bangladesh.
+                Examine our evidence-based AI healthcare interventions that address critical gaps in maternal health literacy 
+                and demonstrate statistically significant improvements in knowledge of antenatal care practices.
           </p>
         </div>
 

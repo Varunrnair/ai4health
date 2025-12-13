@@ -183,21 +183,19 @@ export default function SakhiPage() {
             </h2>
             <div className="text-gray-700 mb-8 leading-relaxed space-y-4 text-lg">
               <p className="text-justify">
-                Sakhi is an MIT-incubated AI-powered digital health literacy
-                platform addressing the critical issue of maternal mortality in
-                India (103 deaths per 100,000 live births) by targeting the
-                systemic lack of health literacy. Through our WhatsApp-based
-                platform, we provide personalized health information to
-                expectant mothers while offering healthcare service providers
-                real-time analytics to monitor and respond to community needs.
+                Sakhi is an MIT-incubated digital health literacy intervention 
+                addressing preventable maternal mortality in India 
+                (MMR: 97 per 100,000 live births, 2018-2020) by targeting health 
+                literacy as a systemic driver of maternal health outcomes. Our WhatsApp-based 
+                intervention delivers multilingual, expert-verified health information 
+                to expectant mothers while providing frontline health workers and 
+                NGO partners with real-time analytics to identify and respond to emerging community health needs.
               </p>
               <p className="text-justify">
-                Our work has received recognition from UNICEF's Gender Response
-                Innovation Challenge and has been featured at the World Bank and
-                BRICS Youth Innovation Summit. The platform has been
-                co-developed with NGO partners in Jalgaon, Maharashtra since
-                2024, with a proven track record of improving maternal health
-                outcomes.
+                The platform was co-developed through 60+ user interviews with expectant mothers and 
+                frontline health workers in Jalgaon, Maharashtra, with a 25-year-old local NGO partner. 
+                A randomized controlled trial (RCT) with 100 participants (38 treatment, 62 control) 
+                demonstrated statistically significant improvements in maternal health knowledge.
               </p>
             </div>
 
